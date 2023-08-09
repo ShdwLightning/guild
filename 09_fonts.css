@@ -1,0 +1,61 @@
+body{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: initial;
+    font-weight: normal;
+    letter-spacing: 0px ;
+    
+    
+}
+
+.Bang {
+    
+    max-width: auto;
+    font-size: 50px;
+    filter: 
+    drop-shadow(3px 3px 5px #be02f7);
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+
+    
+}
+
+.guild-name {
+    text-align: center;
+    color: rgb(240, 245, 245);
+    padding: 15px;
+    
+   
+}
+
+.top {
+    text-align: center;
+    color: white
+
+}
+h4 {
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 8px;
+    color: white;
+}
+
+h5 {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.foot {
+    text-align: center;
+    color: white;
+}
+
+
+.Request h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-decoration: underline 3px;
+    
+}
+

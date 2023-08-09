@@ -6,27 +6,117 @@
     <meta name="keywords" content="heroes, boss, strategy, tactics ">
     <meta name="description" content="Это сайт по игре Mobile Legends: Adventure для игроков Гильдии BANG&BANG" >
     <title>MLA:BANG&BANG</title>
+    
+<style>
+    @media (max-width:650px) {
+        .container {
+            text-align: center;
+            font-size: 15px;
+        }
+        .navbar ul {
+            width: 350px;
+        }
+    }
+</style>
+
+
+
+
+
+    <link rel="stylesheet" href="08_selectors.css">
+    <link rel="stylesheet" href="09_fonts.css">
+    <link rel="stylesheet" href="10_colors.css">
+    <link rel="stylesheet" href="11_borders.css">
+    <link rel="stylesheet" href="12_box.css">
 </head>
 <body>
-    <header>
-        <h1>Mobile Legends: Adventure</h1>  
-    <img src="wfe.webp" alt="1000">  
-    <p><em>Mobile Legends: Adventure</em> - <strong><em>уникальная игра в жанре IDLE RPG</em></strong> с гигантской картой мира и эксклюзивными историями героев, вкупе с расслабляющим игровым процессом. Вы можете получать огромные ресурсы, даже если вы не в сети!</p>
-    </header>
-    <hr>
+
+    <div class="container">
+<div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Гайды</a></li>
+                <li><a href="#">Полезные ссылки</a></li>
+                <li><a href="#">Тактики</a></li>
+                <li><a href="#">Item 4</a></li>
+                <li><a href="#">Item 5</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <h1 class="Bang">
+        BANG&BANG 
+    </h1>  
+   
+    <div class="start">
     <div>
-        <h1>Глава и Офицеры Гильдии</h1>
-     <ol>
-         <li>Александр|Azashiro</li>
-         <li>FLINT</li>
-         <li>MaximSher</li>
-    </ol>
+        <img src="wfe.webp" alt="Mobile Legends" class="avatar">  
+    </div>
+     <div class="desc"> 
+            <p><em>Mobile Legends: Adventure</em> - <strong><em>уникальная игра в жанре IDLE RPG</em></strong> с гигантской картой мира и эксклюзивными историями героев, вкупе с расслабляющим игровым процессом. Вы можете получать огромные ресурсы, даже если вы не в сети!</p>
+     </div>
     </div>
     
-   <hr>
-    <div>
-        <h2>Топ герои по фракциям</h2>
-        <table border="2px">
+
+<div class="backguild">
+
+    <div class="guild-name">
+    <h2>Состав Гильдии</h2>
+    </div>
+
+<div class="table-guild" >
+     <table>
+        <thead>
+            <tr>
+                <th>№</th>
+                <th>Аватар</th>
+                <th>Должность</th>
+                <th>Игровое имя</th>
+            </tr>
+            </thead>
+            <tr>
+                <td>1</td>
+                <td>
+                    <img src="Hero_Sekhet_Icon.webp" style="padding: 5px;">
+                </td>
+                <td>Глава</td>
+                <td>Azashiro</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>
+                    <img src="Hero_Akashic_Icon.webp" style="padding: 5px;">
+                </td>
+                <td>Шериф</td>
+                <td>FLINT</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>
+                    <img src="Hero_Akashic_Icon.webp" style="padding: 5px;">
+                </td>
+                <td>Шериф</td>
+                <td>MaximSher</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>
+                    <img src="Hero_Shah_Torre_Icon.webp" style="padding: 5px;">
+                </td>
+                <td>Обычный</td>
+                <td>ShdwLightning</td>                                                                                  
+            </tr>
+    </table>
+</div>
+</div>
+
+ 
+    <div class="backhero" >
+        <div class="top">
+            <h2>Топ Сильнейших</h2>
+        </div>
+        <div class="table-guild">
+        <table>
             <thead>
                 <tr>
                     <th>Фракция</th>
@@ -54,48 +144,115 @@
                 <td>Сильвана</td>
                 <td>9</td>
             </tr>
+            <tr>
+                <td>Тьма</td>
+                <td>Фаша</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>Гибриды</td>
+                <td>Меха Лейла</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Хаос</td>
+                <td>Шах Торре</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Порядок</td>
+                <td>Люнокс</td>
+                <td>10</td>
+            </tr>
           </table>
+        </div>
     </div>
 
-    <hr>
-   
+<div class="Request">
+<h2>Правила Гильдии</h2>
+    <ol class="call">
+        <li>Минимальное количество для вступления БМ=40кк.</li>
+        <li><strong>Каждый день отбивать БГ.</strong></li>
+        <li><strong>Всегда отбивать ВГ.</strong></li>
+        <li><strong>На ЛФ присутствие обязательно</strong>, если не можете быть, <strong>предупредить офицеров заранее.</strong> А также, внимательно <strong>следить за новостями по ЛФ в чате гилдьии в игре и в</strong> <a href="https://web.telegram.org/k/#-1956347459" target="_blank">Телеграме.</a> </li>
+        <li>Уважайте друг друга.</li>
+        <li>Становитесь лучше, развивайтесь, приятной игры в Гильдии BANG&BANG.</li>
+    </ol>
+
+</div>
+
+
+
+
+
+
+<form action="/" class="form">
+  
+   <div class="chain">
    <div>
-    <h3>Отправка запроса на вступление в Гильдию</h3>
-    <div>
+    <h4>Отправка запроса на вступление в Гильдию</h4>
+   </div>
+   <div class="chainname">
+
+
+<div class="form-row">
+
+   <div class="form-group">
         <label for="name">Ваше имя</label>
         <input type="name" id="name" placeholder="Введите имя">
     </div>
-    
-    <div>
+   
+    <div class="form-group">
         <label for="name">Ваше игровое имя</label>
         <input type="name" id="name" placeholder="Введите ник">
     </div>
     
-    <div>
+
+
+    <div class="form-group">
         <label for="email">Ваш email</label>
         <input type="email" id="email" placeholder="Введите имя">
     </div>
-    <br>
-    <label for="message">Можете задать вопрос</label>
-    <br>
-    <textarea name="message" id="message" cols="30" rows="10" placeholder="Введите сообщение"></textarea>
-    
-    <br>
-    <button type="submit" >Отправить</button>
-   </div>
-           
-    
-    
-  <footer>
-<h4>Связаться с нами</h4>
-    <a href="https://web.telegram.org/k/#-1956347459" target="_blank">Наш Telegram</a>
-    <br>
-    <a href="https://vk.com/mladventureofficial" target="_blank">Группа по игре</a>
-  </footer>
-   
+
+</div>
 
     
+<div class="form-group">
+    <label for="message">Можете задать вопрос</label>
+
     
+
+    <textarea name="message" id="message" cols="30" rows="10" placeholder="Введите сообщение"></textarea>
+</div>
+    
+    
+
+   <div class="but">
+     <button type="submit" class="btn">Отправить</button>
+   </div>
+   </div>
+</div>        
+    
+    
+  <footer class="foot">
+<div>
+<h5>Связаться с нами</h5>
+</div>
+<div class="social_link">
+    <a href="https://web.telegram.org/k/#-1956347459" target="_blank">
+        <img src="Telegramicon.png" alt="telega" class="telega">
+    </a>
+    
+</div>
+  </footer>
+</form>
+
+<hr>
+   
+
+</div>
+
+
     
 </body>
 </html>

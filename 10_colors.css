@@ -1,0 +1,42 @@
+.btn {
+    background: rgb(0, 0, 0);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background-color: #3d3d3d
+}
+
+
+
+.btn:active {
+    background-color: #8b8b8b;
+    box-shadow: 1px 5px #666;
+   transform: translateY(3px);
+  }
+
+  .social_link {
+   text-decoration: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgba(88, 8, 153, 0.795)
+}
+
+a:visited {
+    color: #6100fd;
+}
+
+a:active {
+    color: rgb(31, 31, 245)
+}
